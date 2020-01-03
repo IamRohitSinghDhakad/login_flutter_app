@@ -42,7 +42,7 @@ class SideMenuState extends State<SideMenu> {
 
                   decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage("images/flutter.png")
+                            image: AssetImage("assets/images/flutter.png")
                         )
                   ),
                 )),
@@ -103,13 +103,13 @@ class SideMenuState extends State<SideMenu> {
     var arr = [
 
       SideMenuModal(name: "",image: AssetImage("")),
-      SideMenuModal(name: "Home",image: AssetImage("images/home.png")),
-      SideMenuModal(name: "My Account",image: AssetImage("images/account.png")),
+      SideMenuModal(name: "Home",image: AssetImage("assets/images/home.png")),
+      SideMenuModal(name: "My Account",image: AssetImage("assets/images/account.png")),
       SideMenuModal(name: "Divider",isDivider: true),
-      SideMenuModal(name: "About",image: AssetImage("images/about.png")),
-      SideMenuModal(name: "Setting",image: AssetImage("images/setting.png")),
+      SideMenuModal(name: "About",image: AssetImage("assets/images/about.png")),
+      SideMenuModal(name: "Setting",image: AssetImage("assets/images/setting.png")),
       SideMenuModal(name: "Divider",isDivider: true),
-      SideMenuModal(name: "Logout",image: AssetImage("images/logout.png")),
+      SideMenuModal(name: "Logout",image: AssetImage("assets/images/logout.png")),
 
     ];
     return arr;

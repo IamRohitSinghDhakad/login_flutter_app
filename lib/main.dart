@@ -20,7 +20,7 @@ class LoginPage extends StatelessWidget {
                 height: 400,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('images/background.png'),
+                        image: AssetImage('assets/images/background.png'),
                         fit: BoxFit.fill)),
                 child: Stack(
                   children: <Widget>[
@@ -33,7 +33,7 @@ class LoginPage extends StatelessWidget {
                           Container(
                             decoration: BoxDecoration(
                                 image: DecorationImage(
-                                    image: AssetImage('images/light-1.png'))),
+                                    image: AssetImage('assets/images/light-1.png'))),
                           )),
                     ),
                     Positioned(
@@ -45,7 +45,7 @@ class LoginPage extends StatelessWidget {
                           Container(
                             decoration: BoxDecoration(
                                 image: DecorationImage(
-                                    image: AssetImage('images/light-2.png'))),
+                                    image: AssetImage('assets/images/light-2.png'))),
                           )),
                     ),
                     Positioned(
@@ -58,7 +58,7 @@ class LoginPage extends StatelessWidget {
                           Container(
                             decoration: BoxDecoration(
                                 image: DecorationImage(
-                                    image: AssetImage('images/clock.png'))),
+                                    image: AssetImage('assets/images/clock.png'))),
                           )),
                     ),
                     Positioned(
