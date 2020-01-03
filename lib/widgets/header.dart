@@ -11,11 +11,10 @@ class Header extends StatelessWidget{
     return LimitedBox(
       child: Container(
         padding: EdgeInsets.only(left: 15.0, top: 30.0),
-        child: Text(msg, style: Theme.of(context).textTheme.headline.copyWith(fontFamily: ""),),
-
+        child:
+        Text(msg, style: Theme.of(context).textTheme.headline.copyWith(fontFamily: 'Lobster Two', fontSize: 30),
+        ),
       ),
     );
   }
-
-
 }
